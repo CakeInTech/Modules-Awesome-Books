@@ -15,20 +15,20 @@ export default class UI {
     );
   }
 
-  static displayBooks() {
+  static displayBooks = () => {
     const books = Store.getbooks();
     books.forEach((book) => {
       UI.displayui(book);
     });
   }
 
-  static deleteBook(target) {
+  static deleteBook = (target) => {
     if (target.classList.contains('remove')) {
       target.parentElement.parentElement.remove();
     }
   }
 
-  static clearFields() {
+  static clearFields = () => {
     document.getElementById('atr').value = '';
     document.getElementById('ttl').value = '';
   }

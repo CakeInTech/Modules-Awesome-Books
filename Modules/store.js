@@ -9,13 +9,13 @@ export default class Store {
     return books;
   }
 
-  static addBook(book) {
+  static addBook = (book) => {
     const books = this.getbooks();
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
 
-  static removeBook(title) {
+  static removeBook = (title) => {
     const titleFC = title.parentElement.parentElement.children[0].textContent;
     const books = Store.getbooks();
     // eslint-disable-next-line no-plusplus
