@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Awesome Books</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <h1 class="logo"><a href="">Awesome Books</a></h1>
+      <nav class="nav">
+        <a href="#" class="nav__link list" >List</a>
+        <a href="#" class="nav__link addbooks" >Add New</a>
+        <a href="#" class="nav__link contacts" >Contact</a>
+
+      </nav>
+    </div>
+
+    <main class="main">
+      <div class="books" id="books">
+        <div class="wrapper">
+          <h1>Awesome Books</h1>
+          <table class="lists">
+            <tbody id="lists"></tbody>
+          </table>
+        </div>
+        <section class="addbook" id="addbook">
+          <h1>Add a Book</h1>
+          <form id="form" class="form">
+            <input
+              type="text"
+              name="author"
+              id="atr"
+              placeholder="author"
+              class="atr"
+            />
+            <input
+              type="text"
+              name="title"
+              id="ttl"
+              placeholder="title"
+              class="ttl"
+            />
+            <button id="btn">Add</button>
+          </form>
+        </section>
+
+        <section class="contact" id="contact">
+          <div class="container">
+            <h1 class="contacth1">Contact Us</h1>
+            <p>you can reach us out on example@gmail.com</p>
+            <p>+1 345 567 9413</p>
+            <p>+1 345 567 9413</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy;Copyrights This project made by @MohamedCK and @Fullstop125
+      </p>
+    </footer>
+    <script src="spa.js"></script>
+    <script type="module" src="Index.js"></script>
+  </body>
+</html>

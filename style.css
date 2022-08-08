@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+}
+
+.main {
+  background: url(images/Banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  background-color: #0061b2;
+  backdrop-filter: blur(7px);
+  line-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  padding: 0 16px;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo a {
+  color: #8fe3cf;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #dae6ff;
+  padding-bottom: 5px;
+}
+
+.nav a:hover {
+  border-bottom: 4px solid #dae6ff;
+  border-radius: 2px;
+}
+
+.books {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+table {
+  display: none;
+  border-collapse: collapse;
+  border: 2px solid #506072;
+  margin: 0 20px;
+}
+
+th {
+  background-color: #506072;
+  color: #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+th h2 {
+  margin: 0;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+  font-size: 13px;
+}
+
+tr {
+  display: flex;
+  width: 380px;
+  gap: 50px;
+  border: 1px solid rgba(114, 107, 107, 0.247);
+}
+
+tbody {
+  width: 100%;
+}
+
+tr:hover {
+  background-color: #689cbe;
+  color: white;
+  transition: 1s;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  display: block;
+  padding: 15px;
+  margin: 15px;
+}
+
+#btn {
+  padding: 5px 30px;
+  margin: 15px;
+  width: fit-content;
+}
+
+#lists {
+  width: 50%;
+  padding: 0 15px;
+  list-style: none;
+}
+
+#lists li span {
+  border: 4px solid lightblue;
+  padding: 15px 20px;
+}
+
+.delete {
+  text-decoration: none;
+  font-weight: 400;
+  border: 2px solid #303030;
+  padding: 4px;
+  color: #303030;
+}
+
+.addbook {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  width: 350px;
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(223, 156, 250, 0.397);
+  backdrop-filter: blur(7px);
+  width: 350px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+}
