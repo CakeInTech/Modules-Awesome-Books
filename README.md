@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 
 clone the project by using terminal: 
 
-`git clone git@github.com:MohamedCK/Awesome-books-plain-JavaScript-with-objects.git`
+`git@github.com:MohamedCK/Modules-Awesome-Books.git`
 
 ### prerequisites
 - Javascript
