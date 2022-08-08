@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome books:JavaScript with objects
+# Modules Awesome Books;
 
 > In this project, we built a basic website that allows users to add/remove books from a list.We achieved that by using JavaScript objects and arrays.we also dynamically modified the DOM and add basic events.
 
@@ -37,12 +37,6 @@ clone the project by using terminal:
 - GitHub: [@MohamedCK](https://github.com/MohamedCK)
 - Twitter: [@MohamedCK](https://twitter.com/MohamedCK0)
 - LinkedIn: [@MohamedCK](https://www.linkedin.com/in/mohamed-abdulhakim-2868521b6/)
-
-👤 **Hassan**
-
-- GitHub: [@fullstop125](https://github.com/fullstop125)
-- LinkedIn: [momanyi-hassan](https://linkedin.com/in/momanyi-hassan-32a489180)
-- Twitter: [@moseshassany](https://twitter.com/moseshassany)
 
 ## 🤝 Contributing
 
