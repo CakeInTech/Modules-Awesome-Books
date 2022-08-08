@@ -42,7 +42,6 @@
 .nav a {
   text-decoration: none;
   color: #dae6ff;
-  padding-bottom: 5px;
 }
 
 .nav a:hover {
@@ -171,4 +170,12 @@ input {
 footer {
   text-align: center;
   padding-top: 20px;
+}
+
+#date {
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  top: 60px;
+  right: 10px;
 }

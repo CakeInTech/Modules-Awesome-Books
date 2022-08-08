@@ -1,24 +1,29 @@
+import { DateTime } from './luxon.min.js';
+import Store from './store.js';
+
 export default class UI {
+  static showDate = () => {
+    document.getElementById('date').innerHTML = DateTime.now();
+  }
+
+  static displayui = (book) => {
+    const tbody = document.getElementById('lists');
+    tbody.insertAdjacentHTML(
+      'beforeend',
+      `<tr> <td>${book.title} by ${book.author}</td> 
+         <td><button class="remove" type="button">Remove</button></td> </tr> `,
+    );
+  }
+
   static displayBooks() {
+    const books = Store.getbooks();
     books.forEach((book) => {
-      const list = document.getElementById('lists');
-      const row = document.createElement('tr');
-      const td1 = document.createElement('td');
-      const td2 = document.createElement('td');
-      td1.innerText = book.title;
-      td2.innerText = book.author;
-      const removeBtn = document.createElement('Button');
-      removeBtn.innerText = 'Remove';
-      removeBtn.addEventListener('click', () => {
-        removethebook(book.title);
-      });
-      row.append(td1, td2, removeBtn);
-      list.appendChild(row);
+      UI.displayui(book);
     });
   }
 
   static deleteBook(target) {
-    if (target.classList.contains('delete')) {
+    if (target.classList.contains('remove')) {
       target.parentElement.parentElement.remove();
     }
   }
